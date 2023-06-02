@@ -80,7 +80,8 @@ public class ArrayLists {
         // System.out.println("The last word in the sentence is '" +sentence.get(sentence.size()) + "'.");
 
         // Fill in the missing code (1 of 3)
-        List<String> japaneseNumbers = new ArrayList<>(List.of("rei", "ichi", "ni", "san", "yoku", "go", "roku", "nana", "hachi", "kyuu", "juu"));
+        // Note: rei = 0 ...kyuu = 9
+        List<String> japaneseNumbers = new ArrayList<>(List.of("rei", "ichi", "ni", "san", "yoku", "go", "roku", "nana", "hachi", "kyuu"));
         //System.out.println("I know %d Japanese numbers!\n", japaneseNumbers???);
 
         // Fill in the missing code (2 of 3)
@@ -89,7 +90,7 @@ public class ArrayLists {
         //System.out.printf("%d in Japanese is '%s'.", digit, ***YOURCODEHERE*** );
 
         // Fill in the missing code (3 of 3)
-        // japaneseNumbers // juuichi, juuni (add these to the end of the list)
+        // japaneseNumbers // juu, juuichi, juuni (add these to the end of the list)
         System.out.println("The Japanese numbers I know are: ");
         for (String number : japaneseNumbers) {
             System.out.println(number);
