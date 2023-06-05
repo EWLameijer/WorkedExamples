@@ -115,7 +115,8 @@ class Flower {
         return price;
     }
 
-    public void setPrice(BigDecimal price) {
-        this.price = price;
+    public void setPrice(BigDecimal newPrice) {
+        if (newPrice.compareTo(BigDecimal.ZERO) <= 0) throw new IllegalArgumentException("A price cannot be 0 or below!");
+        this.price = newPrice;
     }
 }
