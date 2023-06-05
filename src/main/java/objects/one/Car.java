@@ -1,8 +1,7 @@
 package objects.one;
 
-import java.awt.Color;
-
-// Create a car with a brand (String), year of manufacture, Color (java.awt.Color is fine for this), and
+// Create a car with a brand (String), year of manufacture, Color (you can use and extend if needed our general
+// Color enum class in this package), and
 // kilometersDriven (double). The first two are fixed at creation time, while kilometersDriven is set at 0.0 at
 // object creation time.
 // All these values should be able to be 'gotten' from the car, but we don't want regular setters.
