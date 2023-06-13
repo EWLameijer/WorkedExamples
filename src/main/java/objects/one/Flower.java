@@ -3,7 +3,6 @@ package objects.one;
 
 import java.math.BigDecimal;
 
-enum Color {WHITE, RED, ORANGE, YELLOW, GREEN, BLUE, PURPLE, PINK}
 
 // Example 2
 // If I'm a florist and I need to make a bouquet, I need to know at least three things about flowers:

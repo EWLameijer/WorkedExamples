@@ -85,7 +85,7 @@ public class ObjectsExamples {
 
         // Exercise 1: create the Song class according to specification. Then uncomment the code below.
 //        var song = new Song("Rocket Man", "Elton John", "Bernie Taupin", 1972);
-//        System.out.printf("A famous song is %s by %s and %s, released in %d", song.getTitle(), getComposer(), getLyricist(), getYear());
+//        System.out.printf("A famous song is %s by %s and %s, released in %d.\n", song.getTitle(), song.getComposer(), song.getLyricist(), song.getYear());
 
         // Exercise 2: create the Country class according to specification. Then uncomment the code below.
 //        var country = new Country("the Netherlands", "Wilhelmus", 17_245_924, "King Willem-Alexander");
@@ -101,7 +101,7 @@ public class ObjectsExamples {
 //                country.getName(), country.getPopulation(), country.getHeadOfState(), country.getAnthem());
 
         // Exercise 3: create the Car class according to specification. Then uncomment the code below.
-//        var car = new Car("Toyota", 2022, java.awt.Color.BLUE);
+//        var car = new Car("Toyota", 2022, Color.BLUE);
 //        System.out.printf("This is a %s %s from %d, which has driven %.1f km.\n", car.getColor(), car.getBrand(), car.getYear(), car.getKilometersDriven());
 //        car.drive(1000);
 //        System.out.printf("This is a %s %s from %d, which has driven %.1f km.\n", car.getColor(), car.getBrand(), car.getYear(), car.getKilometersDriven());
